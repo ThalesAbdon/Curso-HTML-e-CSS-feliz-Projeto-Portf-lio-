@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    border-bottom: 10px solid var(--primary-color);
+    padding: 10px 20px;
+  }
+
+.header .button{
+    background-color: var(--secundary-color);
+}
+
+.header .navigation {
+    text-align: right;
+}

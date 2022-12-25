@@ -1,6 +1,6 @@
-.title {
+.subtitle{
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 40px;
-    color: var(--tertiary-color);
+    font-size: 30px;
+    color: var(--secundary-color);
     text-shadow: 4px 4px 0 var(--primary-color);
-  }
+}
