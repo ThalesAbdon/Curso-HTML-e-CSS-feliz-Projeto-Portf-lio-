@@ -35,4 +35,9 @@ a::before{
  box-shadow: 5px 5px 0 var(--tertiary-color);
  padding: 18px 20px;
  margin-right: 0px;
+ transition: transform 155ms linear;
+}
+
+#buttonDownload:hover{
+   transform: scale(1.05);
 }
