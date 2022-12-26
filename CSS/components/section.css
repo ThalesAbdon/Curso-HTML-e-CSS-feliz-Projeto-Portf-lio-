@@ -1,0 +1,10 @@
+.section{
+    background-color: var(--primary-color);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid var(--secundary-color);
+}
+
+.section .main-title{
+    margin-bottom: 60px;
+}
