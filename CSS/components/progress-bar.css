@@ -6,6 +6,7 @@
     
 }
 
+
 .progress-bar::-webkit-progress-bar,
 .progress-bar::-webkit-progress-value {
     width: 70%;
@@ -14,4 +15,53 @@
 
 .progress-bar::-moz-progress-bar {
     background-color: var(--tertiary-color);
+}
+
+
+.progress-bar.-html::-webkit-progress-bar,
+.progress-bar.-html::-webkit-progress-value {
+    width: 90%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-nodejs::-webkit-progress-bar,
+.progress-bar.-nodejs::-webkit-progress-value {
+    width: 85%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-css::-webkit-progress-bar,
+.progress-bar.-css::-webkit-progress-value {
+    width: 90%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-csharp::-webkit-progress-bar,
+.progress-bar.-csharp::-webkit-progress-value {
+    width: 30%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-javascript::-webkit-progress-bar,
+.progress-bar.-javascript::-webkit-progress-value {
+    width: 75%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-typescript::-webkit-progress-bar,
+.progress-bar.-typescript::-webkit-progress-value {
+    width: 65%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-react::-webkit-progress-bar,
+.progress-bar.-react::-webkit-progress-value {
+    width: 5%;
+    background-color: var(--tertiary-color) ;
+}
+
+.progress-bar.-nest::-webkit-progress-bar,
+.progress-bar.-nest::-webkit-progress-value {
+    width: 90%;
+    background-color: var(--tertiary-color) ;
 }

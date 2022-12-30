@@ -1,0 +1,43 @@
+.node-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.node-card::before{
+ content: '';
+ position: absolute;
+ bottom: 0;
+ height: 0px;
+ width: 40px;
+ box-sizing: border-box;
+ border-top: 2.5px dashed var(--secundary-color);
+ transform: rotate(90deg) translateX(-62%);
+ bottom:200px
+} 
+
+.node-card .title{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    color: var(--secundary-color);
+    margin-bottom: 50px;
+}
+
+.node-card .logo{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 200px;
+ border: 5px solid var(--primary-color);
+ border-radius: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+ background-color: var(--secundary-color);
+}
+
+.node-card.-voltz .logo{
+    background-color: #292278;
+}

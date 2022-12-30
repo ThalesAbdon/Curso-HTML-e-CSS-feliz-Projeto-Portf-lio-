@@ -10,112 +10,116 @@
         <link rel="stylesheet" href="CSS/index.css">
         <link rel="stylesheet" href="CSS/variables.css">
         <link rel="stylesheet" href="CSS/components/main-title.css">
-        <link rel="stylesheet" href="CSS/components/subtitle.css">
-        <link rel="stylesheet" href="CSS/components/box.css">
-        <link rel="stylesheet" href="CSS/components/button.css">
-        <link rel="stylesheet" href="CSS/components/action.css">
-        <link rel="stylesheet" href="CSS/components/header.css">
-        <link rel="stylesheet" href="CSS/components/banner.css">
-        <link rel="stylesheet" href="CSS/components/section.css">
+        <link rel="stylesheet" href="CSS/components/main-subtitle.css">
+        <link rel="stylesheet" href="CSS/components/main-box.css">
+        <link rel="stylesheet" href="CSS/components/main-button.css">
+        <link rel="stylesheet" href="CSS/components/main-action.css">
+        <link rel="stylesheet" href="CSS/components/main-header.css">
+        <link rel="stylesheet" href="CSS/components/main-banner.css">
+        <link rel="stylesheet" href="CSS/components/main-section.css">
         <link rel="stylesheet" href="CSS/components/tech-skill.css">
         <link rel="stylesheet" href="CSS/components/progress-bar.css">
         <link rel="stylesheet" href="CSS/components/wrapper-skill.css">
         <link rel="stylesheet" href="CSS/components/card-project.css">
         <link rel="stylesheet" href="CSS/components/wrapper-card.css">
         <link rel="stylesheet" href="CSS/components/logo.css">
+        <link rel="stylesheet" href="CSS/components/main-description.css">
+        <link rel="stylesheet" href="CSS/components/button-arrow.css">
+        <link rel="stylesheet" href="CSS/components/node-card.css">
+        <link rel="stylesheet" href="CSS/components/main-carousel.css">
         
         
     </head>
 
     <body>
-        <header class="header">
+        <header class="main-header">
             <img src="assets/img/logo.png" alt="Avatar do Thales Abdon"> 
 
             <nav> <!-- Botões do Header para navegação -->
-                <a class= "action" lang="en">Skills</a>
-                <a class= "action" lang="en">Projects</a>
-                <a class= "action" lang="en">About</a>
-                <a class= "action" lang="en">Contact</a>
-                <a class= "button" href="" lang="en">Download CV</a>
+                <a class= "main-action" href="" lang="en">Skills</a>
+                <a class= "main-action" href="" lang="en">Projects</a>
+                <a class= "main-action" href="" lang="en">About</a>
+                <a class= "main-action" href="" lang="en">Contact</a>
+                <a class= "main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
-        <section class="banner">
+        <section class="main-banner">
             <div class="wrapper">
-                <div class="box">
+                <div class="main-box">
                     <h1 class="main-title">Thales Abdon</h1>
-                    <h2 class="subtitle">Full Stack Developer</h2>
+                    <h2 class="main-subtitle">Full Stack Developer</h2>
                 </div>
 
                 <div class="navigation">
-                    <a class= "button" href="" lang="en">Download CV</a>
-                    <a class= "button" href="" lang="en">Contato</a>
+                    <a class= "main-button" href="" lang="en">Download CV</a>
+                    <a class= "main-button" href="" lang="en">Contato</a>
                 </div>
                 
             </div>
         </section>
 
-        <section class="section">
+        <section class="main-section">
             <h2 class="main-title -second">Skills</h2>
             <div class="wrapper-skill">
                 <article class="tech-skill">
                     <img  class="icon" src=".//assets/img/ico_html5.png"alt="icone de HTML">
                     <div class="position">
                         <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
+                        <progress class="progress-bar -html" max="100" value="70"> 70%</progress>
                     </div>
                 </article>
                 <article class="tech-skill">
                     <img  class="icon" src=".//assets/img/ico_nodejs.png"alt="icone do NodeJS">
                     <div class="position">
                         <h3 class="title">NodeJS</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
+                        <progress class="progress-bar -nodejs" max="100" value="70"> 70%</progress>
                     </div>
                 </article>
                 <article class="tech-skill">
                     <img  class="icon" src=".//assets/img/ico_css3.png"alt="icone do CSS">
                     <div class="position">
                         <h3 class="title">CSS</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
-                    </div>
-                </article>
-                <article class="tech-skill">
-                    <img  class="icon" src=".//assets/img/ico_csharp.png"alt="icone do C sharp">
-                    <div class="position">
-                        <h3 class="title">C#</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
-                    </div>
-                </article>
-                <article class="tech-skill">
-                    <img  class="icon" src=".//assets/img/ico_js.png"alt="icone do Javascript">
-                    <div class="position">
-                        <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
-                    </div>
-                </article>
-                <article class="tech-skill">
-                    <img  class="icon" src=".//assets/img/ico_ts.png"alt="icone do Typescript">
-                    <div class="position">
-                        <h3 class="title">TypeScript</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
-                    </div>
-                </article>
-                <article class="tech-skill">
-                    <img  class="icon" src=".//assets/img/ico_react.png"alt="icone do React">
-                    <div class="position">
-                        <h3 class="title">React</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
+                        <progress class="progress-bar -css" max="100" value="70"> 70%</progress>
                     </div>
                 </article>
                 <article class="tech-skill">
                     <img  class="icon" src=".//assets/img/ico_nest.png"alt="icone do Nest">
                     <div class="position">
                         <h3 class="title">Nest</h3>
-                        <progress class="progress-bar" max="100" value="70"> 70%</progress>
+                        <progress class="progress-bar -nest" max="100" value="70"> 70%</progress>
+                    </div>
+                </article>
+                <article class="tech-skill">
+                    <img  class="icon" src=".//assets/img/ico_js.png"alt="icone do Javascript">
+                    <div class="position">
+                        <h3 class="title">JavaScript</h3>
+                        <progress class="progress-bar -javascript" max="100" value="70"> 70%</progress>
+                    </div>
+                </article>
+                <article class="tech-skill">
+                    <img  class="icon" src=".//assets/img/ico_react.png"alt="icone do React">
+                    <div class="position">
+                        <h3 class="title">React</h3>
+                        <progress class="progress-bar -react" max="100" value="70"> 70%</progress>
+                    </div>
+                </article>
+                <article class="tech-skill">
+                    <img  class="icon" src=".//assets/img/ico_ts.png"alt="icone do Typescript">
+                    <div class="position">
+                        <h3 class="title">TypeScript</h3>
+                        <progress class="progress-bar -typescript" max="100" value="70"> 70%</progress>
+                    </div>
+                </article>
+                <article class="tech-skill">
+                    <img  class="icon" src=".//assets/img/ico_csharp.png"alt="icone do C sharp">
+                    <div class="position">
+                        <h3 class="title">C#</h3>
+                        <progress class="progress-bar -csharp" max="100" value="70"> 70%</progress>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="section">
+        <section class="main-section">
             <h2 class="main-title -second">Projetos</h2>
             <div class="wrapper-card">
                 <a href="https://pkmgame.netlify.app/" target="_blank">
@@ -125,5 +129,37 @@
                 </a>
             </div>
         </section>
+        <section class="main-section">
+            <h2 class="main-title -second">Sobre</h2>
+            <p class="main-description">Olá, o meu nome é Thales. Sou apaixonado por Tecnologia desde os meus 6 anos de idade 
+            quando recebi o meu primeiro console (um mega drive III) e a partir desse momento tive a curiosidade de saber como 
+            funcionava a magia de apertar um botão e fazer o Sonic saltar ou andar. O meu primeiro contato com programação foi 
+            com lego NXT(11 anos de idade) onde ganhei um campeonato de robótica na escola. Desde então, tenho tido cada vez mais
+            interesse em aprender cada vez mais sobre este mundo. Adoro programar, resolver problemas e aprender coisas novas 
+            todos os dias.</p>    
+            <section class="main-carousel">
+                <button class="button-arrow -left"> <span class="content">Left</span></button>
+
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2019</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-ufpi.png" alt="logo da UFPI">
+                                </div>
+                        </figure>
+
+                        <figure class="node-card -voltz">
+                            <figcaption class="title">2022</figcaption>
+                                <div class="logo">
+                                    <img src="assets/img/logo-voltz.png" alt="logo da UFPI">
+                                </div>
+                        </figure>
+                    </div>
+                </div>
+                <button class="button-arrow -right"> <span class="content">Right</span></button>
+            </section>
+        </section>
+        <script src="js/components/main-carousel.js"></script>
     </body>
 </html>

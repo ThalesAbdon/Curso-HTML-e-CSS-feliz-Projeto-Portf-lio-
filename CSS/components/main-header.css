@@ -1,4 +1,4 @@
-.header{
+.main-header{
     display: flex;
     justify-content: space-between;
     background-color: var(--primary-color);
@@ -6,10 +6,10 @@
     padding: 10px 20px;
   }
 
-.header .button{
+.main-header .main-button{
     background-color: var(--secundary-color);
 }
 
-.header .navigation {
+.main-header .navigation {
     text-align: right;
 }
