@@ -27,6 +27,10 @@
         <link rel="stylesheet" href="CSS/components/button-arrow.css">
         <link rel="stylesheet" href="CSS/components/node-card.css">
         <link rel="stylesheet" href="CSS/components/main-carousel.css">
+        <link rel="stylesheet" href="CSS/components/main-footer.css">
+        <link rel="stylesheet" href="CSS/components/main-label.css">
+        <link rel="stylesheet" href="CSS/components/main-input.css">
+        <link rel="stylesheet" href="CSS/components/main-form.css">
         
         
     </head>
@@ -36,10 +40,10 @@
             <img src="assets/img/logo.png" alt="Avatar do Thales Abdon"> 
 
             <nav> <!-- Botões do Header para navegação -->
-                <a class= "main-action" href="" lang="en">Skills</a>
-                <a class= "main-action" href="" lang="en">Projects</a>
-                <a class= "main-action" href="" lang="en">About</a>
-                <a class= "main-action" href="" lang="en">Contact</a>
+                <a class= "main-action" href="#skills" lang="en">Skills</a>
+                <a class= "main-action" href="#projects" lang="en">Projects</a>
+                <a class= "main-action" href="#about" lang="en">About</a>
+                <a class= "main-action" href="#contact" lang="en">Contact</a>
                 <a class= "main-button" href="" lang="en">Download CV</a>
             </nav>
         </header>
@@ -58,7 +62,7 @@
             </div>
         </section>
 
-        <section class="main-section">
+        <section id="skills" class="main-section">
             <h2 class="main-title -second">Skills</h2>
             <div class="wrapper-skill">
                 <article class="tech-skill">
@@ -119,7 +123,7 @@
                 </article>
             </div>
         </section>
-        <section class="main-section">
+        <section id= "projects"class="main-section">
             <h2 class="main-title -second">Projetos</h2>
             <div class="wrapper-card">
                 <a href="https://pkmgame.netlify.app/" target="_blank">
@@ -129,7 +133,7 @@
                 </a>
             </div>
         </section>
-        <section class="main-section">
+        <section id="about" class="main-section">
             <h2 class="main-title -second">Sobre</h2>
             <p class="main-description">Olá, o meu nome é Thales. Sou apaixonado por Tecnologia desde os meus 6 anos de idade 
             quando recebi o meu primeiro console (um mega drive III) e a partir desse momento tive a curiosidade de saber como 
@@ -160,6 +164,34 @@
                 <button class="button-arrow -right"> <span class="content">Right</span></button>
             </section>
         </section>
+        
+        
+        <form id= "contact" class="main-form">
+            <legend class="main-title -second">Contatos</legend>
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" id="name" type="text" required>
+
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input" id="email" type="email" required>
+            
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" id="message" required></textarea>
+
+            <button class="main-button -contact" type="submit">Enviar</button>
+        </form>
+      
+
+
+
+        <footer class="main-footer">
+            <a class= "action" href="https://github.com/ThalesAbdon" target="_blank">
+                <img src="assets/img/GitHubFooter.png" alt="Logo do Github">
+            </a>
+
+            <a class= "action" href="https://www.twitch.tv/lawkaizoku" target="_blank">
+                <img src="assets/img/twitchFooter.png"alt="Logo da Twitch">
+            </a>
+        </footer>
         <script src="js/components/main-carousel.js"></script>
     </body>
 </html>

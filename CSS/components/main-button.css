@@ -9,9 +9,19 @@
     color: var(--tertiary-color);
     text-decoration: none;
     border-radius: 40px;
+    cursor: pointer;
    }
    
 .main-button:hover{
       transform: scale(1.05);
    }
    
+.main-button.-contact{
+width: 100%;
+background-color: var(--tertiary-color);
+color: var(--primary-color);
+}
+
+.main-button.-full:hover{
+   transform: scale(1.01);
+}
