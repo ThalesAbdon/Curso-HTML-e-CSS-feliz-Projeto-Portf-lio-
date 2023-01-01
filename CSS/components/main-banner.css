@@ -26,13 +26,6 @@
 @media (max-width: 1200px){
     .main-banner .wrapper {
         width: 30.375rem;
-        margin-top: 115px;
-        margin-left: 30px;
-      
-    }
-
-    .main-banner{
-        background-size: 100%;
     }
 }
 
