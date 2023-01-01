@@ -11,9 +11,9 @@
 .main-banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 630px;
+    width: 39.375rem;
     margin-top: 115px;
-    margin-left: 90px;
+    margin-left: 30px;
 }
 .main-banner .main-box {
     margin-bottom: 40px;
@@ -22,3 +22,21 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 1200px){
+    .main-banner .wrapper {
+        width: 30.375rem;
+        margin-top: 115px;
+        margin-left: 30px;
+      
+    }
+
+    .main-banner{
+        background-size: 100%;
+    }
+}
+
+
+
+
+
